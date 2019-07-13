@@ -1,0 +1,2 @@
+*/1 * * * * 	root	/home/pi/temperature-logger-py-aws/temp-logger.sh >> /tmp/crontab.log 
+59 23 * * * 	root	/home/pi/temperature-logger-py-aws/temp-logger-s3-upload.sh >> /tmp/crontab.log 

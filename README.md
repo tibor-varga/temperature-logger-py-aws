@@ -2,9 +2,10 @@
 simple temperature logger with python and aws s3
 
 1. checkout project
+```
 cd /home/pi
 git clone https://github.com/tibor-varga/temperature-logger-py-aws.git
-
+```
 2. setup aws s3 bucket
 
 3. setup aws credentials

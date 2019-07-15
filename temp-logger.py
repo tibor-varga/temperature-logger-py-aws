@@ -54,7 +54,7 @@ try:
   dateTimeObj = datetime.now()
   timestampStr = dateTimeObj.strftime("%Y-%m-%d_%H:%M:%S")
 
-  print timestampStr + "	rpi2	id	"+id+"	"+ grad
+  print timestampStr + "	rpi1	id	"+id+"	"+ grad
   d.close()
 
         

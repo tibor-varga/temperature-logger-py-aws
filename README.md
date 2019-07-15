@@ -6,8 +6,11 @@ simple temperature logger with python and aws s3
 cd /home/pi
 git clone https://github.com/tibor-varga/temperature-logger-py-aws.git
 ```
-2. follow steps in temp-logger.py to install hid api
-
+2. install hid api
+```
+apt-get install install libhidapi-libusb0
+pip install hid==0.1.1
+```
 3. setup aws s3 bucket
 
 4. setup aws credentials
